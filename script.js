@@ -13,7 +13,7 @@ const musica2 = {
     titulo: "Pra Lá de Bagdá",
     artista: "Lagum",
     anoLancamento: 2016,
-    genero: ["Pop", "Pop-rock", "Raggae"],
+    genero: ["Pop", "Pop-rock", "Reggae"],
     estrofe: "Sempre me imaginei assim \n Livre pra fazer o que eu 'tiver a fim \n Vamos lá e seja o que eu quiser \n E o futuro só pertence à mim",
     autoral: false
 }
@@ -34,7 +34,7 @@ const verificaAutoral = musica1.autoral && musica2.autoral && musica3.autoral;
 console.log("Todas as músicas são autorais?", verificaAutoral)
 
 const musicas = []
-
+/*
 if (musica1.autoral === true){
     musicas.push (musica1) 
 } else {
@@ -51,7 +51,7 @@ if (musica3.autoral === true){
     musicas.push (musica3)
 } else {
     alert("A MÚSICA " + musica3.titulo + " NÃO É AUTORAL E NÃO PODE SER INCLUSA." )
-}
+}*/
 
 //console.log(musicas)
 
