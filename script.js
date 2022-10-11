@@ -79,3 +79,28 @@ for (let i in musicas){
     console.log(musicas[i])
 }
 
+function imprimeMusica(musicaObjeto){
+    let musicString = ''
+    musicString = musicaObjeto
+    console.log(musicString)
+}
+imprimeMusica(musica2)
+
+function retornaInfo(arrayObjeto, string){
+    let retornaMusica = {}
+
+    for(let i in arrayObjeto){
+        for (let j in arrayObjeto[i]){
+            if(arrayObjeto[i][j] === string){
+                retornaMusica = arrayObjeto[i]
+            } else {
+                console.log("Nenhum item foi encontrado.")
+            }
+        }
+    }
+    //return retornaMusica
+    console.log(retornaMusica)
+}
+retornaInfo(musicas, "Pra Lá de Bagdá")
+
+
