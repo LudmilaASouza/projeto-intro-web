@@ -1,57 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Intro-Web</title>
+    <title>Favorites Songs</title>
     <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
     
 </head>
 <body>
-    <header></header>
+    <header>Favorites Songs</header>
 
     <main>
-        <div>
-            <input type="text" nome="" id="">
-            <button></button>
+        <div class="input-botao">
+            <input class="input" type="text" nome="" id="" placeholder="Digite aqui">
+            <button class="botao" type="submit">Pesquisar</button>
         </div>
 
-        <div>
-            <section>
-                <ul>
-                    <li>Título:<a target="_blank" href="https://youtu.be/YXJUiWzxJwM">Um Dia Após o Outro </li></a>
-                    <li>Artista: Tiago Iorc</li>
-                    <li>Ano Lançamento: 2013</li>
-                    <li>Gênero musical: Folk-pop, Pop, MPB, Rock Alternativo</li>
-                    <li>Música autoral: True</li>
-                    <li>Estrofe:<br> <i>"Pra começar <br> Cada coisa em seu lugar <br> E nada como um dia após o outro"</i></li>
+        <div class="div-elementos">
+            <section class="section1">
+                <img src="./tiagoiorc.jpg" alt="Tiago Iorc - Álbum Zesky">
+                <ul class="elementos">                    
+                    <li><b>Título:</b><a target="_blank" href="https://youtu.be/YXJUiWzxJwM">Um Dia Após o Outro </li></a>
+                    <li><b>Artista:</b> Tiago Iorc</li>
+                    <li><b>Ano Lançamento:</b> 2013</li>
+                    <li><b>Gênero musical:</b> Folk-pop, Pop, MPB, <br>Rock Alternativo</li>
+                    <!-- <li>Música autoral: True</li> -->
+                    <li><i>"Pra começar <br> Cada coisa em seu lugar <br> E nada como um dia após o outro"</i></li>
                 </ul>
             </section>
-            <section>
-                <ul>
-                    <li>Título: <a target="_blank" href="https://youtu.be/NR_rqF-BuLE"> Pra Lá de Bagdá</li></a>
-                    <li>Artista: Lagum</li>
-                    <li>Ano Lançamento: 2016</li>
-                    <li>Gênero musical: Pop, Pop-Rock, Reggae</li>
-                    <li>Música autoral: False</li>
-                    <li>Estrofe: <br><i>"Sempre me imaginei assim <br> Livre pra fazer o que eu tiver a fim <br> Vamos lá e seja o que eu quiser <br>E o futuro só pertence à mim"</i></li>
+            <section class="section2">
+                <img src="./lagum.jpg" alt="Lagum - Álbum Seja O Que Eu Quiser">
+                <ul class="elementos">
+                    <li><b>Título:</b> <a target="_blank" href="https://youtu.be/NR_rqF-BuLE"> Pra Lá de Bagdá</li></a>
+                    <li><b>Artista:</b> Lagum</li>
+                    <li><b>Ano Lançamento:</b> 2016</li>
+                    <li><b>Gênero musical:</b> Pop, Pop-Rock, Reggae</li>
+                    <!-- <li>Música autoral: False</li> -->
+                    <li><i>"Sempre me imaginei assim <br> Livre pra fazer o que eu tiver a fim <br> Vamos lá e seja o que eu quiser <br>E o futuro só pertence à mim"</i></li>
                 </ul>
             </section>
-            <section>
-                <ul>
-                    <li>Título:<a target="_blank" href="https://youtu.be/eOP6Z9J5930">Linda de Morrer</li></a>
-                    <li>Artista: Marcello Gugu</li>
-                    <li>Ano Lançamento: 2013</li>
-                    <li>Gênero musical: Rap, Hip-Hop</li>
-                    <li>Música autoral: True</li>
-                    <li>Estrofe: <br><i>"Agradeça cada amanhecer, sorria mais <br> Se preocupe menos <br> Afinal o que tem solução se solucionará <br> O que não tem, solucionado está"</i></li>
+            <section class="section3">
+                <img src="./marcellogugu.jpg" alt="Marcello Gugu - Álbum Até Que Enfim Gugu">
+                <ul class="elementos">
+                    <li><b>Título:</b><a target="_blank" href="https://youtu.be/eOP6Z9J5930">Linda de Morrer</li></a>
+                    <li><b>Artista:</b> Marcello Gugu</li>
+                    <li><b>Ano Lançamento:</b> 2013</li>
+                    <li><b>Gênero musical:</b> Rap, Hip-Hop</li>
+                    <!-- <li>Música autoral: True</li> -->
+                    <li><i>"Agradeça cada amanhecer, sorria mais <br> Se preocupe menos <br> Afinal o que tem solução se solucionará <br> O que não tem, solucionado está"</i></li>
                     
                 </ul>
             </section>
         </div>
     </main>
 
-    <footer></footer>
+    <footer>
+        <ul class="rodape">
+            <li>Ludmila de Aguiar Souza</li>
+            <li>GitHub <a target="_blank" href="https://github.com/LudmilaASouza">@LudmilaASouza</li></a>
+        </ul>
+    </footer>
 </body>
 </html>
