@@ -1,58 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favorites Songs</title>
-    <script src="script.js"></script>
     <link href="style.css" rel="stylesheet">
-    
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>Favorites Songs</header>
-
-    <main>
-        <div class="input-botao">
-            <input class="input" type="text" nome="" id="" placeholder="Digite aqui">
-            <button class="botao" type="submit">Pesquisar</button>
+    <main id="main">
+        <div class="div-buscar">
+            <input id="input" class="input" type="text" value="" placeholder="Digite aqui o título da música">
+            <button onclick="busca(event)" class="botao">Buscar</button>
         </div>
 
-        <div class="div-elementos">
-            <section class="section1">
-                <img src="./tiagoiorc.jpg" alt="Tiago Iorc - Álbum Zesky">
-                <ul class="elementos">                    
-                    <li><b>Título:</b><a target="_blank" href="https://youtu.be/YXJUiWzxJwM">Um Dia Após o Outro </li></a>
-                    <li><b>Artista:</b> Tiago Iorc</li>
-                    <li><b>Ano Lançamento:</b> 2013</li>
-                    <li><b>Gênero musical:</b> Folk-pop, Pop, MPB, <br>Rock Alternativo</li>
-                    <!-- <li>Música autoral: True</li> -->
-                    <li><i>"Pra começar <br> Cada coisa em seu lugar <br> E nada como um dia após o outro"</i></li>
-                </ul>
-            </section>
-            <section class="section2">
-                <img src="./lagum.jpg" alt="Lagum - Álbum Seja O Que Eu Quiser">
-                <ul class="elementos">
-                    <li><b>Título:</b> <a target="_blank" href="https://youtu.be/NR_rqF-BuLE"> Pra Lá de Bagdá</li></a>
-                    <li><b>Artista:</b> Lagum</li>
-                    <li><b>Ano Lançamento:</b> 2016</li>
-                    <li><b>Gênero musical:</b> Pop, Pop-Rock, Reggae</li>
-                    <!-- <li>Música autoral: False</li> -->
-                    <li><i>"Sempre me imaginei assim <br> Livre pra fazer o que eu tiver a fim <br> Vamos lá e seja o que eu quiser <br>E o futuro só pertence à mim"</i></li>
-                </ul>
-            </section>
-            <section class="section3">
-                <img src="./marcellogugu.jpg" alt="Marcello Gugu - Álbum Até Que Enfim Gugu">
-                <ul class="elementos">
-                    <li><b>Título:</b><a target="_blank" href="https://youtu.be/eOP6Z9J5930">Linda de Morrer</li></a>
-                    <li><b>Artista:</b> Marcello Gugu</li>
-                    <li><b>Ano Lançamento:</b> 2013</li>
-                    <li><b>Gênero musical:</b> Rap, Hip-Hop</li>
-                    <!-- <li>Música autoral: True</li> -->
-                    <li><i>"Agradeça cada amanhecer, sorria mais <br> Se preocupe menos <br> Afinal o que tem solução se solucionará <br> O que não tem, solucionado está"</i></li>
-                    
-                </ul>
-            </section>
+        <div id="div-elementos">
         </div>
     </main>
 
