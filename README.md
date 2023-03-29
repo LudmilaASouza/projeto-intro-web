@@ -1,19 +1,22 @@
-# Projeto de Introdução ao desenvolvimento web - Finalizado
+<h1>Projeto de Introdução ao Desenvolvimento Web</h1>
 
-Esse é o projeto de introdução aos fundamentos do desenvolvimento Web. Aqui, vamos praticar a estrutura do que faremos pelo curso todo. O objetivo é construir uma página estilizada, e com lista e busca utilizando manipulação de DOM, praticando o conteúdo do módulo com JS:
+<h4> Esse é o projeto de introdução aos fundamentos do desenvolvimento Web. Aqui, vamos praticar a estrutura do que faremos pelo curso todo. O objetivo é construir uma página estilizada, e com lista e busca utilizando manipulação de DOM, praticando o conteúdo do módulo com JS:
 
-Variáveis
-Operadores
-Strings
-Arrays
-Objetos
-Condicionais
-Laços
-Funções
-Funções de Array
-HTML e CSS
-Flex e Grid
-DOM e responsividade
+<ul> 
+<li> Variáveis </li> 
+<li> Operadores </li>
+<li> Strings</li> 
+<li> Arrays</li> 
+<li> Objetos</li> 
+<li> Condicionais</li> 
+<li> Laços</li> 
+<li> Funções</li> 
+<li> Funções de Array</li> 
+<li>HTML e CSS</li> 
+<li> Flex  e Grid</li> 
+<li> DOM e responsividade</li> 
+</ul>
 
+</h4>
 
-Link do Projeto Finalizado: whimsical-clam.surge.sh
+<b><h3> Link do Projeto Finalizado:</b> <a>whimsical-clam.surge.
