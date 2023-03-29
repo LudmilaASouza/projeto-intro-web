@@ -1,6 +1,6 @@
 <h1>Projeto de Introdução ao Desenvolvimento Web</h1>
 
-Esse é o projeto de introdução aos fundamentos do desenvolvimento Web realizado no Bootcamp da Labenu.O objetivo foi construir uma página estilizada, e com lista e busca utilizando manipulação de DOM, praticando o conteúdo do módulo com JS:</h4>
+Esse é o projeto de introdução aos fundamentos do desenvolvimento Web realizado no Bootcamp da Labenu.O objetivo foi construir uma página estilizada, e com lista e busca utilizando manipulação de DOM, praticando o conteúdo do módulo com JS:
 
 <ul> 
 <li> Variáveis </li> 
@@ -19,4 +19,4 @@ Esse é o projeto de introdução aos fundamentos do desenvolvimento Web realiza
 
 
 
-<b><h3> Link do Projeto Finalizado:</b></h3> <a>whimsical-clam.surge.sh</a>
+ Link do Projeto Finalizado: [whimsical-clam.surge.sh](https://whimsical-clam.surge.sh/)
