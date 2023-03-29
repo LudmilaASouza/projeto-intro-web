@@ -19,4 +19,4 @@ Esse é o projeto de introdução aos fundamentos do desenvolvimento Web realiza
 
 
 
-<b><h3> Link do Projeto Finalizado:</b></h3> <a>whimsical-clam.surge.</a>
+<b><h3> Link do Projeto Finalizado:</b></h3> <a>whimsical-clam.surge.sh</a>
